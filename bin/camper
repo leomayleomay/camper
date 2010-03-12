@@ -1,0 +1,9 @@
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'camper'
+
+require 'rubygems'
+require 'daemons'
+
+Daemons.run_proc("camper", :dir_mode => :normal, :dir => 'pids') do
+  Campfire.stream
+end

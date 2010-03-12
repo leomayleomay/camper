@@ -1,0 +1,12 @@
+Campfire:
+  domain:     # Your domain should be like https://your_company_name.campfirenow.com
+  api_token:  # You can find you api_token on https://your_company_name.campfirenow.com/member/edit
+
+Notifier:
+  jid:        # Fill this field with some jabber account, 'your_account'@gmail.com
+  password:   # Fill this field with the password of the account above
+
+Receipients: 
+  # Replace this with the receipients you want to notify
+  johndoe@gmail.com 
+  jackdoe@gmail.com

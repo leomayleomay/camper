@@ -1,0 +1,5 @@
+Usage:
+
+  1. Edit config/all.yml
+  2. Enter the rooms in the browsers you want to get notified, since if you are not the occupants of the room, you'll not get notified
+  3. ruby bin/camper start
